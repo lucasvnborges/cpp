@@ -13,22 +13,16 @@ void fibonacci(int n)
         }
 
         if (i == 2)
-        {
             std::cout << t2 << ", ";
-        }
 
         nextTerm = t1 + t2;
         t1 = t2;
         t2 = nextTerm;
 
         if (i < n)
-        {
             std::cout << nextTerm << ", ";
-        }
         else
-        {
             std::cout << nextTerm;
-        }
     }
 }
 
