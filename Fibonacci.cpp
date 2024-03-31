@@ -4,7 +4,7 @@ void fibonacci(int n)
 {
     int t1 = 0, t2 = 1, nextTerm = 0;
 
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         if (i == 1)
         {
@@ -21,7 +21,7 @@ void fibonacci(int n)
         t1 = t2;
         t2 = nextTerm;
 
-        if (i < n - 1)
+        if (i < n)
         {
             std::cout << nextTerm << ", ";
         }
