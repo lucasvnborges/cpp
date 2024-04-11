@@ -1,11 +1,11 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
 
 class Roots {
-  public:
-    double root1;
-    double root2;
-    bool realRoots;
+public:
+  double root1;
+  double root2;
+  bool realRoots;
 
   Roots(double r1, double r2, bool real) : root1(r1), root2(r2), realRoots(real) {}
 };
