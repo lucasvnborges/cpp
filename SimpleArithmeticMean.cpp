@@ -2,7 +2,7 @@
 
 float calculate(float arr[], int size) {
   float sum = 0;
-  
+
   for (int i = 0; i < size; i++) {
     sum += arr[i];
   }
@@ -11,12 +11,12 @@ float calculate(float arr[], int size) {
 }
 
 int main() {
-    float numbers[] = { 7.5, 8.0, 6.5, 9.0, 7.2 };
-    int arraySize = sizeof(numbers) / sizeof(numbers[0]);
+  float numbers[] = {7.5, 8.0, 6.5, 9.0, 7.2};
+  int arraySize = sizeof(numbers) / sizeof(numbers[0]);
 
-    float result = calculateAverage(numbers, arraySize);
+  float result = calculate(numbers, arraySize);
 
-    cout << "The average of the values is: " << result << endl;
+  std::cout << "The average of the values is: " << result << std::endl;
 
-    return 0;
+  return 0;
 }
