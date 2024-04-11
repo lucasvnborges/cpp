@@ -1,14 +1,12 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
 
-double calculateCircleArea(double diameter)
-{
+double calculateCircleArea(double diameter) {
   double radius = diameter / 2.0;
   return M_PI * pow(radius, 2);
 }
 
-int main()
-{
+int main() {
   double diameter = 10.0;
   double area = calculateCircleArea(diameter);
 
