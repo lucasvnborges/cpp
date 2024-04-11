@@ -1,32 +1,28 @@
 #include <iostream>
 
-long long factorial(int n)
-{
-    long long value = 1;
+long long factorial(int n) {
+  long long value = 1;
 
-    for (int i = 2; i <= n; i++)
-    {
-        value *= i;
-    }
+  for (int i = 2; i <= n; i++) {
+    value *= i;
+  }
 
-    return value;
+  return value;
 }
 
-long long binomialCoefficient(int n, int k)
-{
-    long long binomial =
-        factorial(n) / (factorial(k) * factorial(n - k));
+long long binomialCoefficient(int n, int k) {
+  long long binomial =
+      factorial(n) / (factorial(k) * factorial(n - k));
 
-    return binomial;
+  return binomial;
 }
 
-int main()
-{
-    int n = 5, k = 3;
+int main() {
+  int n = 5, k = 3;
 
-    long long result = binomialCoefficient(n, k);
+  long long result = binomialCoefficient(n, k);
 
-    std::cout << "The binomial coefficient C(" << n << ", " << k << ") is: " << result << std::endl;
+  std::cout << "The binomial coefficient C(" << n << ", " << k << ") is: " << result << std::endl;
 
-    return 0;
+  return 0;
 }
