@@ -1,14 +1,13 @@
 #include <iostream>
-#include <vector>
 #include <numeric>
+#include <vector>
 
-int main()
-{
-    std::vector<int> numbers = {1, 2, 3, 4, 5};
+int main() {
+  std::vector<int> numbers = {1, 2, 3, 4, 5};
 
-    int sum = std::accumulate(numbers.begin(), numbers.end(), 0);
+  int sum = std::accumulate(numbers.begin(), numbers.end(), 0);
 
-    std::cout << "Sum of vector numbers: " << sum << std::endl;
+  std::cout << "Sum of vector numbers: " << sum << std::endl;
 
-    return 0;
+  return 0;
 }
