@@ -1,19 +1,16 @@
 #include <iostream>
 
-class Iterator
-{
+class Iterator {
     int state;
 
-public:
+  public:
     Iterator() : state(0) {}
-    int next()
-    {
+    int next() {
         return state++;
     }
 };
 
-int main()
-{
+int main() {
     Iterator gen;
 
     std::cout << gen.next() << std::endl;
