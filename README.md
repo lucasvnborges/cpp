@@ -1,6 +1,6 @@
 # C++ Problem Solving Practice
 
-Welcome to my C++ problem-solving practice repository! This repository contains various C++ solutions to different types of problems, designed to help you sharpen your programming skills and deepen your understanding of algorithms and data structures.
+Welcome to my C++ problem-solving practice repository! This repository contains C++ solutions to different types of problems, designed to help you sharpen your programming skills and deepen your understanding of algorithms and data structures.
 
 ## Introduction
 
